@@ -1,0 +1,67 @@
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  min-height: 80vh;
+  background-color: #1c1c1c;
+}
+
+.home-content {
+  max-width: 50%;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  color: #8a5cf6;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.connect-btn {
+  background-color: #8a5cf6;
+  color: white;
+}
+
+.learn-btn {
+  background-color: transparent;
+  color: #8a5cf6;
+  border: 1px solid #8a5cf6;
+}
+#about {
+  background-color: #8a5cf6;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+  margin-left: 14px;
+}
+#contact {
+  background-color: #8a5cf6;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+  margin-right: 14px;
+}
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+}

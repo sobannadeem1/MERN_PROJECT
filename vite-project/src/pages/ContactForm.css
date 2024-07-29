@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.form-container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+  color: #8a5cf6;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-container label {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+
+.form-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: #8a5cf6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #7542d3;
+}
